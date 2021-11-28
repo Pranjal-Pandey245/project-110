@@ -27,8 +27,8 @@ function modelLoded(){
 
 function speak(){
     var synth= window.speechSynthesis;
-    var speak_data_1= "The first prediction is"+prediction;
-    var utterthis= new SpeechSynthesisUtterance(speak_data_1+speak_data_2);
+    var speak_data_1= "My prediction is"+prediction;
+    var utterthis= new SpeechSynthesisUtterance(speak_data_1);
     synth.speak(utterthis);
 }
 
