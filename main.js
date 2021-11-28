@@ -47,13 +47,13 @@ function gotResults(error, results){
         prediction= results[0].label;
         speak();
         if(results[0].label== "victory"){
-            document.getElementById("update_gesture").innerHTML= "&#128522;";
+            document.getElementById("update_gesture").innerHTML= "&#9996;";
         }
         else if(results[0].label== "great"){
-            document.getElementById("update_gesture").innerHTML= "&#128532;";
+            document.getElementById("update_gesture").innerHTML= "&#128077;";
         }
         else if(results[0].label== "amazing"){
-            document.getElementById("update_gesture").innerHTML= "&#128548;";
+            document.getElementById("update_gesture").innerHTML= "&#128076;";
         }
     }
 }
